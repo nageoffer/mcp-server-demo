@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class McpServerConfig {
+public class MCPServerConfig {
 
     /**
      * 注册工具提供者
