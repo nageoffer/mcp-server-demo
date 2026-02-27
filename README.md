@@ -23,8 +23,8 @@
 .
 ├── pom.xml
 ├── src/main/java/com/nageoffer/ai/mcp
-│   ├── McpServerApplication.java
-│   ├── config/McpServerConfig.java
+│   ├── MCPServerApplication.java
+│   ├── config/MCPServerConfig.java
 │   └── tools/EnterpriseTools.java
 └── src/main/resources/application.yaml
 ```
@@ -145,7 +145,7 @@ java -jar target/mcp-server-demo-1.0.0.jar
 
 ## 开发说明
 
-新增 MCP 工具时，在 `EnterpriseTools` 中添加 `@Tool` 方法即可，`McpServerConfig` 会通过 `MethodToolCallbackProvider` 自动注册。
+新增 MCP 工具时，在 `EnterpriseTools` 中添加 `@Tool` 方法即可，`MCPServerConfig` 会通过 `MethodToolCallbackProvider` 自动注册。
 
 ## 常见问题
 
